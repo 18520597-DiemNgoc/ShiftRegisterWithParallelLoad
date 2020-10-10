@@ -1,0 +1,45 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\13.0sp1
+vShiftRegister
+Z1 INWFYcdB34G@zc24_HmH^j2
+Z2 VSE4`eKEcWQYo:keLCR=c[1
+Z3 dF:\CE213\ShiftRegister\PostSyn\simulation\modelsim
+Z4 w1601138329
+Z5 8F:/CE213/ShiftRegister/PostSyn/simulation/modelsim/ShiftRegister.vo
+Z6 FF:/CE213/ShiftRegister/PostSyn/simulation/modelsim/ShiftRegister.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+Z9 n@shift@register
+Z10 !s100 QSCQd=ZRb4EUFH@Bb^C9@1
+Z11 !s108 1601138538.502000
+Z12 !s107 F:/CE213/ShiftRegister/PostSyn/simulation/modelsim/ShiftRegister.vo|
+Z13 !s90 -reportprogress|300|-work|work|F:/CE213/ShiftRegister/PostSyn/simulation/modelsim/ShiftRegister.vo|
+!i10b 1
+!s85 0
+!s101 -O0
+vTestBench
+!i10b 1
+!s100 7@FOFfSk;;^XT@UdN?B973
+ILVToUAV7`Sg6Z5Yihd]^U1
+Z14 VPliQB0NZSDVQ2J_FG<JPH1
+R3
+w1601195485
+Z15 8F:\CE213\ShiftRegister\PostSyn\simulation\modelsim\TestBench.v
+Z16 FF:\CE213\ShiftRegister\PostSyn\simulation\modelsim\TestBench.v
+L0 3
+R7
+r1
+!s85 0
+31
+!s108 1601195492.606000
+!s107 F:\CE213\ShiftRegister\PostSyn\simulation\modelsim\TestBench.v|
+Z17 !s90 -reportprogress|300|-work|work|F:\CE213\ShiftRegister\PostSyn\simulation\modelsim\TestBench.v|
+!s101 -O0
+R8
+Z18 n@test@bench

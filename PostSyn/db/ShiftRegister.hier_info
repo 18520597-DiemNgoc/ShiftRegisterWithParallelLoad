@@ -1,0 +1,352 @@
+|ShiftRegister
+OUT[0] <= OUT[0].DB_MAX_OUTPUT_PORT_TYPE
+OUT[1] <= OUT[1].DB_MAX_OUTPUT_PORT_TYPE
+OUT[2] <= OUT[2].DB_MAX_OUTPUT_PORT_TYPE
+OUT[3] <= OUT[3].DB_MAX_OUTPUT_PORT_TYPE
+OUT[4] <= OUT[4].DB_MAX_OUTPUT_PORT_TYPE
+OUT[5] <= OUT[5].DB_MAX_OUTPUT_PORT_TYPE
+OUT[6] <= OUT[6].DB_MAX_OUTPUT_PORT_TYPE
+OUT[7] <= OUT[7].DB_MAX_OUTPUT_PORT_TYPE
+DATA_IN[0] => DATA_IN[0].IN1
+DATA_IN[1] => DATA_IN[1].IN1
+DATA_IN[2] => DATA_IN[2].IN1
+DATA_IN[3] => DATA_IN[3].IN1
+DATA_IN[4] => DATA_IN[4].IN1
+DATA_IN[5] => DATA_IN[5].IN1
+DATA_IN[6] => DATA_IN[6].IN1
+DATA_IN[7] => DATA_IN[7].IN1
+Ileft => Ileft.IN1
+Iright => Iright.IN1
+SEL[0] => SEL[0].IN8
+SEL[1] => SEL[1].IN8
+CLK => CLK.IN8
+
+
+|ShiftRegister|Mux41:MUX0
+OutMux <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+I0 => WideAnd0.IN0
+I1 => WideAnd1.IN0
+I2 => WideAnd2.IN0
+I3 => WideAnd3.IN0
+SEL1 => WideAnd2.IN1
+SEL1 => WideAnd3.IN1
+SEL1 => WideAnd0.IN1
+SEL1 => WideAnd1.IN1
+SEL0 => WideAnd1.IN2
+SEL0 => WideAnd3.IN2
+SEL0 => WideAnd0.IN2
+SEL0 => WideAnd2.IN2
+
+
+|ShiftRegister|Mux41:MUX1
+OutMux <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+I0 => WideAnd0.IN0
+I1 => WideAnd1.IN0
+I2 => WideAnd2.IN0
+I3 => WideAnd3.IN0
+SEL1 => WideAnd2.IN1
+SEL1 => WideAnd3.IN1
+SEL1 => WideAnd0.IN1
+SEL1 => WideAnd1.IN1
+SEL0 => WideAnd1.IN2
+SEL0 => WideAnd3.IN2
+SEL0 => WideAnd0.IN2
+SEL0 => WideAnd2.IN2
+
+
+|ShiftRegister|Mux41:MUX2
+OutMux <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+I0 => WideAnd0.IN0
+I1 => WideAnd1.IN0
+I2 => WideAnd2.IN0
+I3 => WideAnd3.IN0
+SEL1 => WideAnd2.IN1
+SEL1 => WideAnd3.IN1
+SEL1 => WideAnd0.IN1
+SEL1 => WideAnd1.IN1
+SEL0 => WideAnd1.IN2
+SEL0 => WideAnd3.IN2
+SEL0 => WideAnd0.IN2
+SEL0 => WideAnd2.IN2
+
+
+|ShiftRegister|Mux41:MUX3
+OutMux <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+I0 => WideAnd0.IN0
+I1 => WideAnd1.IN0
+I2 => WideAnd2.IN0
+I3 => WideAnd3.IN0
+SEL1 => WideAnd2.IN1
+SEL1 => WideAnd3.IN1
+SEL1 => WideAnd0.IN1
+SEL1 => WideAnd1.IN1
+SEL0 => WideAnd1.IN2
+SEL0 => WideAnd3.IN2
+SEL0 => WideAnd0.IN2
+SEL0 => WideAnd2.IN2
+
+
+|ShiftRegister|Mux41:MUX4
+OutMux <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+I0 => WideAnd0.IN0
+I1 => WideAnd1.IN0
+I2 => WideAnd2.IN0
+I3 => WideAnd3.IN0
+SEL1 => WideAnd2.IN1
+SEL1 => WideAnd3.IN1
+SEL1 => WideAnd0.IN1
+SEL1 => WideAnd1.IN1
+SEL0 => WideAnd1.IN2
+SEL0 => WideAnd3.IN2
+SEL0 => WideAnd0.IN2
+SEL0 => WideAnd2.IN2
+
+
+|ShiftRegister|Mux41:MUX5
+OutMux <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+I0 => WideAnd0.IN0
+I1 => WideAnd1.IN0
+I2 => WideAnd2.IN0
+I3 => WideAnd3.IN0
+SEL1 => WideAnd2.IN1
+SEL1 => WideAnd3.IN1
+SEL1 => WideAnd0.IN1
+SEL1 => WideAnd1.IN1
+SEL0 => WideAnd1.IN2
+SEL0 => WideAnd3.IN2
+SEL0 => WideAnd0.IN2
+SEL0 => WideAnd2.IN2
+
+
+|ShiftRegister|Mux41:MUX6
+OutMux <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+I0 => WideAnd0.IN0
+I1 => WideAnd1.IN0
+I2 => WideAnd2.IN0
+I3 => WideAnd3.IN0
+SEL1 => WideAnd2.IN1
+SEL1 => WideAnd3.IN1
+SEL1 => WideAnd0.IN1
+SEL1 => WideAnd1.IN1
+SEL0 => WideAnd1.IN2
+SEL0 => WideAnd3.IN2
+SEL0 => WideAnd0.IN2
+SEL0 => WideAnd2.IN2
+
+
+|ShiftRegister|Mux41:MUX7
+OutMux <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+I0 => WideAnd0.IN0
+I1 => WideAnd1.IN0
+I2 => WideAnd2.IN0
+I3 => WideAnd3.IN0
+SEL1 => WideAnd2.IN1
+SEL1 => WideAnd3.IN1
+SEL1 => WideAnd0.IN1
+SEL1 => WideAnd1.IN1
+SEL0 => WideAnd1.IN2
+SEL0 => WideAnd3.IN2
+SEL0 => WideAnd0.IN2
+SEL0 => WideAnd2.IN2
+
+
+|ShiftRegister|D_FF:DUT0
+Q <= D_latch:slave.Q_latch
+Qn <= D_latch:slave.Qn_latch
+Din_FF => Din_FF.IN1
+clk_ff => clk_ff.IN1
+
+
+|ShiftRegister|D_FF:DUT0|D_latch:master
+Q_latch <= Q_latch.DB_MAX_OUTPUT_PORT_TYPE
+Qn_latch <= comb.DB_MAX_OUTPUT_PORT_TYPE
+Din_latch => d1.IN0
+Din_latch => d3.IN0
+clk_dl => d1.IN1
+clk_dl => d3.IN1
+
+
+|ShiftRegister|D_FF:DUT0|D_latch:slave
+Q_latch <= Q_latch.DB_MAX_OUTPUT_PORT_TYPE
+Qn_latch <= comb.DB_MAX_OUTPUT_PORT_TYPE
+Din_latch => d1.IN0
+Din_latch => d3.IN0
+clk_dl => d1.IN1
+clk_dl => d3.IN1
+
+
+|ShiftRegister|D_FF:DUT1
+Q <= D_latch:slave.Q_latch
+Qn <= D_latch:slave.Qn_latch
+Din_FF => Din_FF.IN1
+clk_ff => clk_ff.IN1
+
+
+|ShiftRegister|D_FF:DUT1|D_latch:master
+Q_latch <= Q_latch.DB_MAX_OUTPUT_PORT_TYPE
+Qn_latch <= comb.DB_MAX_OUTPUT_PORT_TYPE
+Din_latch => d1.IN0
+Din_latch => d3.IN0
+clk_dl => d1.IN1
+clk_dl => d3.IN1
+
+
+|ShiftRegister|D_FF:DUT1|D_latch:slave
+Q_latch <= Q_latch.DB_MAX_OUTPUT_PORT_TYPE
+Qn_latch <= comb.DB_MAX_OUTPUT_PORT_TYPE
+Din_latch => d1.IN0
+Din_latch => d3.IN0
+clk_dl => d1.IN1
+clk_dl => d3.IN1
+
+
+|ShiftRegister|D_FF:DUT2
+Q <= D_latch:slave.Q_latch
+Qn <= D_latch:slave.Qn_latch
+Din_FF => Din_FF.IN1
+clk_ff => clk_ff.IN1
+
+
+|ShiftRegister|D_FF:DUT2|D_latch:master
+Q_latch <= Q_latch.DB_MAX_OUTPUT_PORT_TYPE
+Qn_latch <= comb.DB_MAX_OUTPUT_PORT_TYPE
+Din_latch => d1.IN0
+Din_latch => d3.IN0
+clk_dl => d1.IN1
+clk_dl => d3.IN1
+
+
+|ShiftRegister|D_FF:DUT2|D_latch:slave
+Q_latch <= Q_latch.DB_MAX_OUTPUT_PORT_TYPE
+Qn_latch <= comb.DB_MAX_OUTPUT_PORT_TYPE
+Din_latch => d1.IN0
+Din_latch => d3.IN0
+clk_dl => d1.IN1
+clk_dl => d3.IN1
+
+
+|ShiftRegister|D_FF:DUT3
+Q <= D_latch:slave.Q_latch
+Qn <= D_latch:slave.Qn_latch
+Din_FF => Din_FF.IN1
+clk_ff => clk_ff.IN1
+
+
+|ShiftRegister|D_FF:DUT3|D_latch:master
+Q_latch <= Q_latch.DB_MAX_OUTPUT_PORT_TYPE
+Qn_latch <= comb.DB_MAX_OUTPUT_PORT_TYPE
+Din_latch => d1.IN0
+Din_latch => d3.IN0
+clk_dl => d1.IN1
+clk_dl => d3.IN1
+
+
+|ShiftRegister|D_FF:DUT3|D_latch:slave
+Q_latch <= Q_latch.DB_MAX_OUTPUT_PORT_TYPE
+Qn_latch <= comb.DB_MAX_OUTPUT_PORT_TYPE
+Din_latch => d1.IN0
+Din_latch => d3.IN0
+clk_dl => d1.IN1
+clk_dl => d3.IN1
+
+
+|ShiftRegister|D_FF:DUT4
+Q <= D_latch:slave.Q_latch
+Qn <= D_latch:slave.Qn_latch
+Din_FF => Din_FF.IN1
+clk_ff => clk_ff.IN1
+
+
+|ShiftRegister|D_FF:DUT4|D_latch:master
+Q_latch <= Q_latch.DB_MAX_OUTPUT_PORT_TYPE
+Qn_latch <= comb.DB_MAX_OUTPUT_PORT_TYPE
+Din_latch => d1.IN0
+Din_latch => d3.IN0
+clk_dl => d1.IN1
+clk_dl => d3.IN1
+
+
+|ShiftRegister|D_FF:DUT4|D_latch:slave
+Q_latch <= Q_latch.DB_MAX_OUTPUT_PORT_TYPE
+Qn_latch <= comb.DB_MAX_OUTPUT_PORT_TYPE
+Din_latch => d1.IN0
+Din_latch => d3.IN0
+clk_dl => d1.IN1
+clk_dl => d3.IN1
+
+
+|ShiftRegister|D_FF:DUT5
+Q <= D_latch:slave.Q_latch
+Qn <= D_latch:slave.Qn_latch
+Din_FF => Din_FF.IN1
+clk_ff => clk_ff.IN1
+
+
+|ShiftRegister|D_FF:DUT5|D_latch:master
+Q_latch <= Q_latch.DB_MAX_OUTPUT_PORT_TYPE
+Qn_latch <= comb.DB_MAX_OUTPUT_PORT_TYPE
+Din_latch => d1.IN0
+Din_latch => d3.IN0
+clk_dl => d1.IN1
+clk_dl => d3.IN1
+
+
+|ShiftRegister|D_FF:DUT5|D_latch:slave
+Q_latch <= Q_latch.DB_MAX_OUTPUT_PORT_TYPE
+Qn_latch <= comb.DB_MAX_OUTPUT_PORT_TYPE
+Din_latch => d1.IN0
+Din_latch => d3.IN0
+clk_dl => d1.IN1
+clk_dl => d3.IN1
+
+
+|ShiftRegister|D_FF:DUT6
+Q <= D_latch:slave.Q_latch
+Qn <= D_latch:slave.Qn_latch
+Din_FF => Din_FF.IN1
+clk_ff => clk_ff.IN1
+
+
+|ShiftRegister|D_FF:DUT6|D_latch:master
+Q_latch <= Q_latch.DB_MAX_OUTPUT_PORT_TYPE
+Qn_latch <= comb.DB_MAX_OUTPUT_PORT_TYPE
+Din_latch => d1.IN0
+Din_latch => d3.IN0
+clk_dl => d1.IN1
+clk_dl => d3.IN1
+
+
+|ShiftRegister|D_FF:DUT6|D_latch:slave
+Q_latch <= Q_latch.DB_MAX_OUTPUT_PORT_TYPE
+Qn_latch <= comb.DB_MAX_OUTPUT_PORT_TYPE
+Din_latch => d1.IN0
+Din_latch => d3.IN0
+clk_dl => d1.IN1
+clk_dl => d3.IN1
+
+
+|ShiftRegister|D_FF:DUT7
+Q <= D_latch:slave.Q_latch
+Qn <= D_latch:slave.Qn_latch
+Din_FF => Din_FF.IN1
+clk_ff => clk_ff.IN1
+
+
+|ShiftRegister|D_FF:DUT7|D_latch:master
+Q_latch <= Q_latch.DB_MAX_OUTPUT_PORT_TYPE
+Qn_latch <= comb.DB_MAX_OUTPUT_PORT_TYPE
+Din_latch => d1.IN0
+Din_latch => d3.IN0
+clk_dl => d1.IN1
+clk_dl => d3.IN1
+
+
+|ShiftRegister|D_FF:DUT7|D_latch:slave
+Q_latch <= Q_latch.DB_MAX_OUTPUT_PORT_TYPE
+Qn_latch <= comb.DB_MAX_OUTPUT_PORT_TYPE
+Din_latch => d1.IN0
+Din_latch => d3.IN0
+clk_dl => d1.IN1
+clk_dl => d3.IN1
+
+

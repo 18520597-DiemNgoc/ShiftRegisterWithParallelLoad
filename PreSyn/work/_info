@@ -1,0 +1,105 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\13.0sp1
+vD_FF
+Z1 IX>=h?[T_B0NJ^dUVF0K1c2
+Z2 VFl>aWDZ:IPNcgeZRRO]K[2
+Z3 dF:\CE213\ShiftRegister\PreSyn
+Z4 w1601055149
+Z5 8F:/CE213/ShiftRegister/PreSyn/D_FF.v
+Z6 FF:/CE213/ShiftRegister/PreSyn/D_FF.v
+L0 1
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+Z9 n@d_@f@f
+Z10 !s100 oW<I:0j:?OlE18QDZ0Ki62
+Z11 !s108 1601196802.208000
+Z12 !s107 F:/CE213/ShiftRegister/PreSyn/D_FF.v|
+Z13 !s90 -reportprogress|300|-work|work|F:/CE213/ShiftRegister/PreSyn/D_FF.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vD_latch
+Z14 IHJI3Zl`oz=>cUQ7V8J22]0
+Z15 V2]Mbe0ZUkh;ioagVWA`VR2
+R3
+Z16 w1601055133
+Z17 8F:/CE213/ShiftRegister/PreSyn/D_latch.v
+Z18 FF:/CE213/ShiftRegister/PreSyn/D_latch.v
+L0 2
+R7
+r1
+31
+R8
+Z19 n@d_latch
+Z20 !s100 bjVbde>Zff9bXVU3HX?Nh2
+Z21 !s108 1601196802.463000
+Z22 !s107 F:/CE213/ShiftRegister/PreSyn/D_latch.v|
+Z23 !s90 -reportprogress|300|-work|work|F:/CE213/ShiftRegister/PreSyn/D_latch.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vMux41
+Z24 Ij109iN3:U;I?;DdVPIFiQ0
+Z25 VfC`NBEZiXNGUKkeI1l:Dk3
+R3
+Z26 w1601055315
+Z27 8F:/CE213/ShiftRegister/PreSyn/Mux41.v
+Z28 FF:/CE213/ShiftRegister/PreSyn/Mux41.v
+L0 1
+R7
+r1
+31
+R8
+Z29 n@mux41
+!i10b 1
+Z30 !s100 dmWNAfzNFJ9<mHaddCa4V1
+!s85 0
+Z31 !s108 1601196802.758000
+Z32 !s107 F:/CE213/ShiftRegister/PreSyn/Mux41.v|
+Z33 !s90 -reportprogress|300|-work|work|F:/CE213/ShiftRegister/PreSyn/Mux41.v|
+!s101 -O0
+vShiftRegister
+!i10b 1
+!s100 _4fg9A]hV94]PVAVzoH^[2
+Ik7oWBn7znC4VaD_?41DMN3
+Z34 V1mLcHficVFiJcR`AdL4V_3
+R3
+Z35 w1601055216
+8F:/CE213/ShiftRegister/PreSyn/ShiftRegister.v
+FF:/CE213/ShiftRegister/PreSyn/ShiftRegister.v
+L0 1
+R7
+r1
+!s85 0
+31
+!s108 1601196803.038000
+!s107 F:/CE213/ShiftRegister/PreSyn/ShiftRegister.v|
+!s90 -reportprogress|300|-work|work|F:/CE213/ShiftRegister/PreSyn/ShiftRegister.v|
+!s101 -O0
+R8
+Z36 n@shift@register
+vTestBench
+Z37 IBg:;DDDzXNMBf[7SNZ33_1
+Z38 VPliQB0NZSDVQ2J_FG<JPH1
+R3
+Z39 w1601192041
+Z40 8F:/CE213/ShiftRegister/PreSyn/TestBench.v
+Z41 FF:/CE213/ShiftRegister/PreSyn/TestBench.v
+L0 3
+R7
+r1
+31
+R8
+Z42 n@test@bench
+Z43 !s100 @F[cHH?X1GlGP=GCRiHZL2
+Z44 !s108 1601196801.888000
+Z45 !s107 F:/CE213/ShiftRegister/PreSyn/TestBench.v|
+Z46 !s90 -reportprogress|300|-work|work|F:/CE213/ShiftRegister/PreSyn/TestBench.v|
+!i10b 1
+!s85 0
+!s101 -O0
